@@ -1,0 +1,16 @@
+{
+  "name": "add-shapefile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron --debug ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "~1.6.2",
+    "shapefile": "^0.6.2",
+    "terraformer-arcgis-parser": "^1.0.5"
+  }
+}
