@@ -1,6 +1,5 @@
 // require some cool stuff
 const { ipcRenderer } = nodereq("electron");
-const ArcGIS = nodereq("terraformer-arcgis-parser");
 // normal app
 require([
   "esri/Map",

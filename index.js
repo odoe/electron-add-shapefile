@@ -4,7 +4,7 @@ const url = require("url")
 const shapefile = require("shapefile");
 const ArcGIS = require("terraformer-arcgis-parser");
 
-app.on("window-all-closed", function () {
+app.on("window-all-closed", () => {
   if (process.platform != "darwin") {
     app.quit();
   }
